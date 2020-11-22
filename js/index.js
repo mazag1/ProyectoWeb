@@ -19,7 +19,7 @@ function m_carrusel(){
     // //---
     var cabecera=document.getElementById("cabecera");
     cabecera.style.background = banner[numerorandom(1, 6)-1];
-    console.log(9);
+    //console.log(9);
     setTimeout("m_carrusel()",3000);
 }
 
