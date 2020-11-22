@@ -14,8 +14,6 @@ window.onload=function()
 }
 
 function m_carrusel(){
-    // contador = numerorandom(1, 6);
-    // //---
     // var cabecera=document.getElementById("Quienes");
     // cabecera.style.backgroundImage  = 'red';
     // //---
