@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DISEÑANDO MUNDOS</title>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Changa+One&family=Gochi+Hand&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Indie+Flower&family=Pacifico&family=Patua+One&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1785122e83.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		div{
+			box-sizing: border-box;
+		}
+		h1,h2,h3,h4,p,ol,ul{
+			margin:0;
+			padding: 0;
+		}
+		h1{
+			font-family: 'Pacifico', cursive;
+			font-size:40px;
+			color: white;
+
+		}
+		h2{
+			font-family: 'Indie Flower', cursive;
+			font-size: 20px;
+			color: white;
+			padding: 5px 20px;
+
+		}
+		h3{
+			font-family: 'Bree Serif', serif;
+			font-size: 28px;
+			color: darkblue;
+			padding: 5px 20px;
+
+		}
+		h4{
+			font-family: 'Patua One', cursive;
+			font-size: 21px;
+			color: darkblue;
+			padding: 5px 20px;
+
+		}
+		p{
+			font-family: 'Acme', sans-serif;
+			font-size: 12px;
+			text-align: justify;
+			color:  #011640;
+			padding: 10px 30px;
+		}
+
+
+		body{
+			background-color: lightgray;
+			background-image: url(imagenes/fond.jpg);
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+		
+		 .contenedor{
+			width: 940px;
+			height: auto;
+			margin: auto;
+
+		}
+		.encabezado{
+			width: 940px;
+			height: 450px;
+			background-image: url(imagenes/encabe.jpg);
+			background-repeat: no-repeat;
+			background-size:940px 450px;
+			margin-bottom: 20px;
+		}
+		.caja1{
+			width: 460px;
+			height: 400px;
+			background-color: white;
+			float: left;
+			margin-right: 20px;
+
+		}
+
+		.caja2{
+			width: 460px;
+			height: 400px;
+			background-color:white;
+			float: left;
+		}
+		.caja3{
+			width: 460px;
+			height: 400px;
+			background-color: white;
+			float: left;
+			margin-right: 20px;
+
+		}
+
+		.caja4{
+			width: 460px;
+			height: 400px;
+			background-color:white;
+			float: left;
+		}
+		.caja5{
+			width: 460px;
+			height: 400px;
+			background-color: white;
+			float: left;
+			margin-right: 20px;
+
+		}
+
+		.caja6{
+			width: 460px;
+			height: 400px;
+			background-color:white;
+			float: left;
+		}
+
+		.pie {
+			width: 940px;
+			height: 400px;
+			background-color: yellow;
+			padding: 30px 50px;
+			background-image: url(imagenes/pie2.jpg);
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+		.seccion1{
+			width: 100%;
+			height: auto;			
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		.vacio{
+			clear: both;
+		}
+		.unica{
+			width: 100%;
+			height: auto;
+			background-color: transparent;
+			padding: 30px 50px;
+		}
+		.imag{
+			float: left;
+		}
+		.pietexto{
+			text-align: right;
+			padding: 1px 1px;
+
+		}
+		.impie{
+			clear: both;
+			padding: 1px 1px;
+		}
+		.pie2{
+			text-align: center;
+			padding: 1px 1px;
+		}
+		.video{
+			float: right;
+		}
+		@media (max-width:480px){
+			form{
+				width: 100px;
+			}
+		}
+
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:940px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+
+		    .menu > li {
+				float:left;
+			}
+			
+			.menu li a {
+				background-color:transparent;
+				color:white;
+				text-decoration:none;
+				font-family: 'Fredoka One', cursive;
+				padding:12px 10px;
+				display:block;
+				align-content: center;
+			}
+			
+			.menu li a:hover {
+				background-color:black;
+			}
+			
+			.menu li ul {
+				display:none;
+				position:absolute;
+				min-width: 150px;
+			}
+			
+			.menu li:hover > ul {
+				display:block;
+			}
+			
+			.menu li ul li {
+				position:relative;
+			}
+			.boton2{
+			background-color: blue;
+			color: white;
+			font-family: 'Satisfy', cursive;
+			font-weight: bold;
+			text-decoration: none;
+			padding: 10px 28px;
+			margin-bottom: 90px;
+			border-style: outset;
+			border-color: blue;
+			border-width: thin;
+			border-radius: 20px;
+			font-size: 18px;
+		}
+		.boton3{
+			background-color: red;
+			color: white;
+			font-family: 'Satisfy', cursive;
+			font-weight: bold;
+			text-decoration: none;
+			padding: 5px 10px;
+			margin-bottom: 90px;
+			border-style: outset;
+			border-color: red;
+			border-width: thin;
+			border-radius: 20px;
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+			
+			<div class="encabezado">
+					
+
+					<div class="unica">
+						<header>
+					<nav class="navegacion">
+					<ul class="menu">
+						<li><a href="QuienesSomos.html">Quienes Somos</a>  
+						
+								<ul class="submenu">
+									<li><a href="Quienessomos.html">Mensaje</a></li>
+									
+								</ul>	
+							 </li>      
+						<li><a href="Secciones.html">Secciones</a>
+						        <ul class="submenu">
+									<li><a href="Secciones.html">Reseñas</a></li>
+									<li><a href="Secciones.html">Recomendaciones</a></li>
+									<li><a href="Secciones.html">Historias Interesantes</a></li>
+								</ul>
+							</li>
+						<li><a href="Novedades.html">Novedades</a>
+						         <ul class="submenu">
+									<li><a href="Novedades.html">Eventos</a></li>
+									<li><a href="Novedades.html">Noticias</a></li>
+									<li><a href="Novedades.html">Concursos</a></li>
+								</ul>
+							</li>
+						<li><a href="Contactenos.html">Contactenos</a>
+							</li>	
+						
+						
+					</ul>
+				</nav>
+				</header>
+                    <a href="index.html" class="boton2">Inicio</a> 
+                         	</div>	
+					    <center>
+					<img src="imagenes/logo.png"  width="250" height="180" align="center" border="0" hspace="10">
+					     </center>
+					
+					  <center><h1>Diseñando Mundos</h1></center>
+							<center><h2>El mundo es un rompecabezas cuyas piezas cada uno de nosotros arma de diferente manera</h2></center>
+			
+			</div>
+
+			<div class="seccion1">
+							<center><h3>Novedades</h3></center>
+			                	<h3>Eventos</h3>
+			                <div class="caja1">
+			                	<center>
+			                	<h4>Feria del Libro de Lima 2020</h4>
+			                	<p>La Feria Internacional del Libro de Lima (FIL Lima 2020) tendrá más de un cambio este año. No solo pasará a desarrollarse de manera virtual, en vez de presencial, sino que su fecha cambiará. En vez del tradicional julio, arrancará en agosto. La fiesta lectora se celebrará del 21 de agosto al 6 de setiembre, informó la Cámara Peruana del Libro (CPL) y ya se ve el cambio en su página web. De esta manera mantiene sus 17 días de duración; además se preparan actividades culturales y la esperada venta de libros.</p>
+			                	</center>
+										
+
+			                </div>
+
+			                <div class="caja2">
+			                	
+			                	<img src="imagenes/feria.jpg"  width="460" height="400" align="center" border="0">
+			                	
+			                </div>
+
+			                <div class="vacio"></div>
+
+			</div>
+		                      
+            <div class="seccion1">
+							<h3>Noticias</h3>
+			                <div class="caja3">
+			                	<center>
+			                	<h4>Más de 100 mil libros están a disposición en diversos puntos de Lima</h4>
+			                	<p>Quinientos libros digitales, para niños y adultos, tiene proyectado lanzar hasta diciembre el programa Lima Lee, como parte de la política cultural de la Municipalidad Metropolitana de Lima (MML) frente a la actual pandemia del covid-19.De este total, entre abril y mayo ya se han lanzaron los 100 primeros títulos de la colección digital, disponibles libremente para descarga en el portal de Descubre Lima. Y a fines de este mes, se lanzarán otro medio centenar de novelas, cuentos y poemarios.</p>
+			                	
+			                	</center>
+										
+
+			                </div>
+
+			                <div class="caja4">
+			                	
+			                	<img src="imagenes/limalee.jpg"  width="460" height="400" align="center" border="0">
+			                	
+			                </div>
+
+			                <div class="vacio"></div>
+
+			</div>
+
+		                      
+
+			   <div class="seccion1">
+							<h3>Concursos</h3>
+			                <div class="caja5">
+			                	<center>
+			                	<h4>Concurso Latinoamericano de Novela Corta "Fabla Salvaje"</h4>
+			                	<p>Este concurso es organizado de forma conjunta por las editoriales Cascahuesos Editores y Editorial Aletheya de la ciudad de Arequipa,como un homenaje a uno de nuestros grandes escritores del país: Cesar Vallejo, cumbre de la poesía universal del siglo XX, quien, además, exploró otros géneros literarios incluyendo la novela corta.Podrán participar cualquier persona que sean mayores de edad, con una obra en lengua castellana, original e inédita, que no haya sido presentada a otro premio o esté pendiente de fallo, y no tenga cedidos o comprometidos los derechos de edición y/o reproducción de la misma en cualquier forma.</p>
+			                	
+			                	</center>
+										
+
+			                </div>
+
+			                <div class="caja6">
+			                	
+			                	<img src="imagenes/conc.jpg"  width="460" height="400" align="center" border="0">
+			                	
+			                </div>
+
+			                <div class="vacio"></div>
+
+			</div>
+			<div class="pie">
+					
+					             <center>
+					          	
+						<img src="imagenes/logo.png"  width="250" height="180" align="center" border="0">
+						       
+				              </center>
+								
+										
+								
+								             
+			</div>
+
+    </div>
+
+
+</body>
+</html>
