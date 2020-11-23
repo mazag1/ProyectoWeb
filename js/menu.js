@@ -4,7 +4,7 @@ for (let index = 0; index < 6; index++) {
     banner[index] = "url(imagenes/banner/" + (index + 1) + ".png)";
 }
 
-window.onload=function()
+function menu(){
 {	
     m_carrusel()
     var nombre=document.getElementById("Quienes");
