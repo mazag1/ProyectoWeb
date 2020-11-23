@@ -1,6 +1,7 @@
 
 // eventos
 var eventos = new Array(6);
+<<<<<<< HEAD
 
 for (let novedad = 0; novedad < 6; novedad++) {
     eventos[novedad] = "url('/imagenes/eventos/" + (novedad+ 1) + ".jpg')";
@@ -40,53 +41,29 @@ function numerorandom(min, max) {
   }
 
 
+=======
+>>>>>>> 09392364a621ebf5e694463332530ac3c42d89d3
 // noticias
 var noticias = new Array(6);
-
-for (let novedad = 0; novedad < 6; novedad++) {
-    noticias[novedad] = "url('/imagenes/noticias/" + (novedad+ 1) + ".jpg')";
-}
-
-window.onload=function()
-{   
-    m_carrusel()
-    var nombre=document.getElementById("Novedades");
-    nombre.innerHTML="Novedades";
-
-    document.body.style.backgroundColor = '#FAC67C';
-}
-
-function m_carrusel(){
-    
-    var not=document.getElementById("not");
-    not.style.background = noticias[numerorandom(1, 6)-1];
-    //console.log(9);
-    setTimeout("m_carrusel()",3000);
-}
-
-
-function numerorandom(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-  }
-
-  
 // concursos
 var concursos = new Array(6);
 
 for (let novedad = 0; novedad < 6; novedad++) {
-    concursos[novedad] = "url('/imagenes/concursos/" + (novedad+ 1) + ".jpg')";
+    eventos[novedad] = "/imagenes/eventos/"+(novedad+ 1)+".jpg";
+    noticias[novedad] = "/imagenes/noticias/" + (novedad+ 1) + ".jpg";
+    concursos[novedad] = "/imagenes/concursos/" + (novedad+ 1) + ".jpg";
 }
 
 window.onload=function()
-{   
+{	
     m_carrusel()
     var nombre=document.getElementById("Novedades");
     nombre.innerHTML="Novedades";
-
     document.body.style.backgroundColor = '#FAC67C';
 }
 
 function m_carrusel(){
+<<<<<<< HEAD
     var conc=document.getElementById("conc");
     conc.style.background = concursos[numerorandom(1, 6)-1];
     //console.log(9);
@@ -98,6 +75,11 @@ function m_carrusel(){
     Eventos.style.background = Eventos[numerorandom(1, 6)-1];
     console.log(9);
 >>>>>>> Stashed changes
+=======
+    window.document["img_novedades"].src = eventos[numerorandom(1, 6)-1];
+    window.document["img_noticias"].src = noticias[numerorandom(1, 6)-1];
+    window.document["img_cursos"].src = concursos[numerorandom(1, 6)-1];
+>>>>>>> 09392364a621ebf5e694463332530ac3c42d89d3
     setTimeout("m_carrusel()",3000);
 }
 
