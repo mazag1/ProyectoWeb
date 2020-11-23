@@ -4,7 +4,7 @@ var eventos = new Array(6);
 var noticias = new Array(6);
 // concursos
 var concursos = new Array(6);
-
+//otros
 for (let novedad = 0; novedad < 6; novedad++) {
     eventos[novedad] = "/imagenes/eventos/"+(novedad+ 1)+".jpg";
     noticias[novedad] = "/imagenes/noticias/" + (novedad+ 1) + ".jpg";
