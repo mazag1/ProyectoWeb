@@ -1,3 +1,5 @@
+//eventos
+var eventos = new Array(6);
 // noticias
 var noticias = new Array(6);
 // concursos
