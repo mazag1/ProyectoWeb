@@ -23,9 +23,6 @@ window.onload=function()
     unica.style.alignItems = "center";
     unica.style.display = "flex";
 
-
-
-
     document.body.style.backgroundColor = '#FAC67C';
 }
 
