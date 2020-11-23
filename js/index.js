@@ -1,7 +1,7 @@
 var banner = new Array(6);
 
 for (let index = 0; index < 6; index++) {
-    banner[index] = "url('/imagenes/banner/" + (index + 1) + ".png')";
+    banner[index] = "url('/imagenes/banner/" + (index + 1) + ".png)";
 }
 
 window.onload=function()
