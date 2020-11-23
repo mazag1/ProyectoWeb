@@ -6,9 +6,9 @@ var noticias = new Array(6);
 var concursos = new Array(6);
 //otros
 for (let novedad = 0; novedad < 6; novedad++) {
-    eventos[novedad] = "/imagenes/eventos/"+(novedad+ 1)+".jpg";
-    noticias[novedad] = "/imagenes/noticias/" + (novedad+ 1) + ".jpg";
-    concursos[novedad] = "/imagenes/concursos/" + (novedad+ 1) + ".jpg";
+    eventos[novedad] = "imagenes/eventos/"+(novedad+ 1)+".jpg";
+    noticias[novedad] = "imagenes/noticias/" + (novedad+ 1) + ".jpg";
+    concursos[novedad] = "imagenes/concursos/" + (novedad+ 1) + ".jpg";
 }
 
 window.onload=function()
