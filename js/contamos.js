@@ -14,12 +14,8 @@ window.onload=function()
 }
 
 function m_carrusel(){
-    // var cabecera=document.getElementById("Quienes");
-    // cabecera.style.backgroundImage  = 'red';
-    // //---
     var cabecera=document.getElementById("cabecera");
-    cabecera.style.backgroundImage = banner[numerorandom(1, 6)-1];
-    //console.log(9);
+    cabecera.style.backgroundImage = banner[numerorandom(1, 6)-1]
     setTimeout("m_carrusel()",3000);
 }
 
