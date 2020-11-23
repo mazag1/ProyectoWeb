@@ -10,6 +10,9 @@ window.onload=function()
     var nombre=document.getElementById("Quienes");
     nombre.innerHTML="Quienes Somos";
 
+    var inicio=document.getElementById("inicio");
+    inicio.innerHTML="Inicio";
+    
     //UNICA
     var unica=document.getElementById("unica");
     unica.style.width = "100%";
@@ -19,15 +22,9 @@ window.onload=function()
     unica.style.justifyContent = "center";
     unica.style.alignItems = "center";
     unica.style.display = "flex";
-    // .unica{
-    //     width: 100%;
-    //     height: auto;
-    //     background-color: white;
-    //     padding: 30px 50px;
-    //     justify-content: center;
-    //     align-items: center;
-    //     display: flex;
-    // }
+
+
+
 
     document.body.style.backgroundColor = '#FAC67C';
 }
