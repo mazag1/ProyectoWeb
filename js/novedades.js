@@ -1,20 +1,32 @@
+
 // eventos
 var eventos = new Array(6);
 
 for (let novedad = 0; novedad < 6; novedad++) {
     eventos[novedad] = "url('/imagenes/eventos/" + (novedad+ 1) + ".jpg')";
+
+var Eventos = new Array(6);
+
+for (let Novedades = 0; Novedades < 6; Novedades++) {
+    Eventos[Novedades] = "url('/imagenes/eventos/" + (Novedades + 1) + ".jpg)";
+>>>>>>> Stashed changes
 }
 
 window.onload=function()
 {	
     m_carrusel()
+<<<<<<< Updated upstream
     var nombre=document.getElementById("Novedades");
+=======
+    var nombre=document.getElementById("Novedad");
+>>>>>>> Stashed changes
     nombre.innerHTML="Novedades";
 
     document.body.style.backgroundColor = '#FAC67C';
 }
 
 function m_carrusel(){
+<<<<<<< Updated upstream
     
     var nov=document.getElementById("nov");
     nov.style.background = eventos[numerorandom(1, 6)-1];
@@ -78,6 +90,14 @@ function m_carrusel(){
     var conc=document.getElementById("conc");
     conc.style.background = concursos[numerorandom(1, 6)-1];
     //console.log(9);
+=======
+    // var cabecera=document.getElementById("Quienes");
+    // cabecera.style.backgroundImage  = 'red';
+    // //---
+    var Eventos=document.getElementById("Eventos");
+    Eventos.style.background = Eventos[numerorandom(1, 6)-1];
+    console.log(9);
+>>>>>>> Stashed changes
     setTimeout("m_carrusel()",3000);
 }
 
