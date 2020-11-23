@@ -1,7 +1,7 @@
 var banner = new Array(6);
 
 for (let index = 0; index < 6; index++) {
-    banner[index] = "url('/imagenes/banner/" + (index + 1) + ".png)";
+    banner[index] = "url(imagenes/banner/" + (index + 1) + ".png)";
 }
 
 window.onload=function()
@@ -18,7 +18,7 @@ function m_carrusel(){
     // cabecera.style.backgroundImage  = 'red';
     // //---
     var cabecera=document.getElementById("cabecera");
-    cabecera.style.background = banner[numerorandom(1, 6)-1];
+    cabecera.style.backgroundImage = banner[numerorandom(1, 6)-1];
     //console.log(9);
     setTimeout("m_carrusel()",3000);
 }
