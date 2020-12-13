@@ -6,10 +6,10 @@ for (let index = 0; index < 6; index++) {
 
 window.onload=function()
 {	
-    m_carrusel();
-
     musicfondo = $("#fondomusic");
     musicfondo[0].play();
+    
+    m_carrusel();
 
     var nombre=document.getElementById("Quienes");
     nombre.innerHTML="Quienes Somos";
